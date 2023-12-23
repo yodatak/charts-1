@@ -11,6 +11,44 @@ entries:
       truecharts.org/train: dependency
     apiVersion: v2
     appVersion: 23.11.2.11
+    created: "2023-12-23T17:15:53.804443391Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.truecharts.org
+      version: 16.2.15
+    description: ClickHouse is a column-oriented database management system (DBMS)
+      for online analytical processing of queries (OLAP).
+    digest: ddc084bf870507e53438987f626414edd67f77ad627136efca04f3b947e770a2
+    home: https://truecharts.org/charts/dependency/clickhouse
+    icon: https://truecharts.org/img/hotlink-ok/chart-icons/clickhouse.png
+    keywords:
+    - database
+    - clickhouse
+    - sql
+    kubeVersion: '>=1.24.0-0'
+    maintainers:
+    - email: info@truecharts.org
+      name: TrueCharts
+      url: https://truecharts.org
+    name: clickhouse
+    sources:
+    - https://clickhouse.com/
+    - https://github.com/truecharts/charts/tree/master/charts/dependency/clickhouse
+    - https://hub.docker.com/r/clickhouse/clickhouse-server
+    type: application
+    urls:
+    - https://github.com/truecharts/charts/releases/download/clickhouse-9.0.13/clickhouse-9.0.13.tgz
+    version: 9.0.13
+  - annotations:
+      max_scale_version: 23.10.2
+      min_scale_version: 23.10.0
+      truecharts.org/SCALE-support: "true"
+      truecharts.org/category: database
+      truecharts.org/max_helm_version: "3.13"
+      truecharts.org/min_helm_version: "3.12"
+      truecharts.org/train: dependency
+    apiVersion: v2
+    appVersion: 23.11.2.11
     created: "2023-12-22T22:06:53.958501404Z"
     dependencies:
     - name: common
@@ -5302,6 +5340,43 @@ entries:
       truecharts.org/train: dependency
     apiVersion: v2
     appVersion: 2.10.1
+    created: "2023-12-23T17:15:53.995580164Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.truecharts.org
+      version: 16.2.15
+    description: kube-state-metrics is a simple service that listens to the Kubernetes
+      API server and generates metrics about the state of the objects.
+    digest: b80fb239867a7069468959b06731dde762f3b7523b3d12a60cff9e49c02a6780
+    home: https://truecharts.org/charts/dependency/kube-state-metrics
+    icon: https://truecharts.org/img/hotlink-ok/chart-icons/kube-state-metrics.png
+    keywords:
+    - prometheus
+    - kube-state-metrics
+    - monitoring
+    kubeVersion: '>=1.24.0-0'
+    maintainers:
+    - email: info@truecharts.org
+      name: TrueCharts
+      url: https://truecharts.org
+    name: kube-state-metrics
+    sources:
+    - https://github.com/truecharts/charts/tree/master/charts/dependency/kube-state-metrics
+    - https://hub.docker.com/r/bitnami/kube-state-metrics
+    type: application
+    urls:
+    - https://github.com/truecharts/charts/releases/download/kube-state-metrics-5.0.12/kube-state-metrics-5.0.12.tgz
+    version: 5.0.12
+  - annotations:
+      max_scale_version: 23.10.2
+      min_scale_version: 23.10.0
+      truecharts.org/SCALE-support: "true"
+      truecharts.org/category: metrics
+      truecharts.org/max_helm_version: "3.13"
+      truecharts.org/min_helm_version: "3.12"
+      truecharts.org/train: dependency
+    apiVersion: v2
+    appVersion: 2.10.1
     created: "2023-12-22T22:06:54.142582879Z"
     dependencies:
     - name: common
@@ -8702,6 +8777,47 @@ entries:
     - https://github.com/truecharts/charts/releases/download/kube-state-metrics-1.0.0/kube-state-metrics-1.0.0.tgz
     version: 1.0.0
   mariadb:
+  - annotations:
+      max_scale_version: 23.10.2
+      min_scale_version: 23.10.0
+      truecharts.org/SCALE-support: "true"
+      truecharts.org/category: database
+      truecharts.org/max_helm_version: "3.13"
+      truecharts.org/min_helm_version: "3.12"
+      truecharts.org/train: dependency
+    apiVersion: v2
+    appVersion: 11.1.3
+    created: "2023-12-23T17:15:54.183846899Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.truecharts.org
+      version: 16.2.15
+    description: Fast, reliable, scalable, and easy to use open-source relational
+      database system.
+    digest: c02265c899b43121434cff2651e8d9b5b912e401cb1e05f05a557ff0534774be
+    home: https://truecharts.org/charts/dependency/mariadb
+    icon: https://truecharts.org/img/hotlink-ok/chart-icons/mariadb.png
+    keywords:
+    - mariadb
+    - mysql
+    - database
+    - sql
+    kubeVersion: '>=1.24.0-0'
+    maintainers:
+    - email: info@truecharts.org
+      name: TrueCharts
+      url: https://truecharts.org
+    name: mariadb
+    sources:
+    - https://github.com/prometheus/mysqld_exporter
+    - https://mariadb.org
+    - https://github.com/bitnami/bitnami-docker-mariadb
+    - https://github.com/truecharts/charts/tree/master/charts/dependency/mariadb
+    - https://hub.docker.com/r/bitnami/mariadb
+    type: application
+    urls:
+    - https://github.com/truecharts/charts/releases/download/mariadb-11.0.13/mariadb-11.0.13.tgz
+    version: 11.0.13
   - annotations:
       max_scale_version: 23.10.2
       min_scale_version: 23.10.0
@@ -15363,6 +15479,43 @@ entries:
       truecharts.org/train: dependency
     apiVersion: v2
     appVersion: 1.6.22
+    created: "2023-12-23T17:15:54.365845474Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.truecharts.org
+      version: 16.2.15
+    description: Memcached is a memory-backed database caching solution
+    digest: db010de047b1ada5b4ee8a1433db7b320da25692d18ab6ee1443ab75e1b01f02
+    home: https://truecharts.org/charts/dependency/memcached
+    icon: https://truecharts.org/img/hotlink-ok/chart-icons/memcached.png
+    keywords:
+    - memcached
+    - database
+    - cache
+    kubeVersion: '>=1.24.0-0'
+    maintainers:
+    - email: info@truecharts.org
+      name: TrueCharts
+      url: https://truecharts.org
+    name: memcached
+    sources:
+    - https://hub.docker.com/r/bitnami/memcached
+    - https://github.com/bitnami/bitnami-docker-memcached
+    - https://github.com/truecharts/charts/tree/master/charts/dependency/memcached
+    type: application
+    urls:
+    - https://github.com/truecharts/charts/releases/download/memcached-10.0.13/memcached-10.0.13.tgz
+    version: 10.0.13
+  - annotations:
+      max_scale_version: 23.10.2
+      min_scale_version: 23.10.0
+      truecharts.org/SCALE-support: "true"
+      truecharts.org/category: database
+      truecharts.org/max_helm_version: "3.13"
+      truecharts.org/min_helm_version: "3.12"
+      truecharts.org/train: dependency
+    apiVersion: v2
+    appVersion: 1.6.22
     created: "2023-12-22T22:06:54.531264754Z"
     dependencies:
     - name: common
@@ -21288,6 +21441,45 @@ entries:
     - https://github.com/truecharts/charts/releases/download/memcached-5.0.2/memcached-5.0.2.tgz
     version: 5.0.2
   mongodb:
+  - annotations:
+      max_scale_version: 23.10.2
+      min_scale_version: 23.10.0
+      truecharts.org/SCALE-support: "true"
+      truecharts.org/category: database
+      truecharts.org/max_helm_version: "3.13"
+      truecharts.org/min_helm_version: "3.12"
+      truecharts.org/train: dependency
+    apiVersion: v2
+    appVersion: 7.0.4
+    created: "2023-12-23T17:15:54.532226118Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.truecharts.org
+      version: 16.2.15
+    description: Fast, reliable, scalable, and easy to use open-source no-sql database
+      system.
+    digest: 64708c1f84ecf429dde5fa07641f394f348bbdb19c2996e07c95e27d04956568
+    home: https://truecharts.org/charts/dependency/mongodb
+    icon: https://truecharts.org/img/hotlink-ok/chart-icons/mongodb.png
+    keywords:
+    - mongodb
+    - database
+    - nosql
+    kubeVersion: '>=1.24.0-0'
+    maintainers:
+    - email: info@truecharts.org
+      name: TrueCharts
+      url: https://truecharts.org
+    name: mongodb
+    sources:
+    - https://www.mongodb.com
+    - https://github.com/bitnami/bitnami-docker-mongodb
+    - https://github.com/truecharts/charts/tree/master/charts/dependency/mongodb
+    - https://hub.docker.com/r/bitnami/mongodb
+    type: application
+    urls:
+    - https://github.com/truecharts/charts/releases/download/mongodb-10.0.12/mongodb-10.0.12.tgz
+    version: 10.0.12
   - annotations:
       max_scale_version: 23.10.2
       min_scale_version: 23.10.0
@@ -27648,6 +27840,43 @@ entries:
       truecharts.org/train: dependency
     apiVersion: v2
     appVersion: 1.7.0
+    created: "2023-12-23T17:15:54.721401176Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.truecharts.org
+      version: 16.2.15
+    description: Prometheus exporter for hardware and OS metrics exposed by UNIX kernels,
+      with pluggable metric collectors.
+    digest: b6a736af3e36406b84b66758b2afe84b8a7f12b1a01dd672603633746a87213b
+    home: https://truecharts.org/charts/dependency/node-exporter
+    icon: https://truecharts.org/img/hotlink-ok/chart-icons/node-exporter.png
+    keywords:
+    - prometheus
+    - node-exporter
+    - monitoring
+    kubeVersion: '>=1.24.0-0'
+    maintainers:
+    - email: info@truecharts.org
+      name: TrueCharts
+      url: https://truecharts.org
+    name: node-exporter
+    sources:
+    - https://hub.docker.com/r/bitnami/node-exporter
+    - https://github.com/truecharts/charts/tree/master/charts/dependency/node-exporter
+    type: application
+    urls:
+    - https://github.com/truecharts/charts/releases/download/node-exporter-5.0.12/node-exporter-5.0.12.tgz
+    version: 5.0.12
+  - annotations:
+      max_scale_version: 23.10.2
+      min_scale_version: 23.10.0
+      truecharts.org/SCALE-support: "true"
+      truecharts.org/category: metrics
+      truecharts.org/max_helm_version: "3.13"
+      truecharts.org/min_helm_version: "3.12"
+      truecharts.org/train: dependency
+    apiVersion: v2
+    appVersion: 1.7.0
     created: "2023-12-22T22:06:54.933912321Z"
     dependencies:
     - name: common
@@ -33304,6 +33533,43 @@ entries:
     - https://github.com/truecharts/charts/releases/download/promtail-5.0.1/promtail-5.0.1.tgz
     version: 5.0.1
   redis:
+  - annotations:
+      max_scale_version: 23.10.2
+      min_scale_version: 23.10.0
+      truecharts.org/SCALE-support: "true"
+      truecharts.org/category: database
+      truecharts.org/max_helm_version: "3.13"
+      truecharts.org/min_helm_version: "3.12"
+      truecharts.org/train: dependency
+    apiVersion: v2
+    appVersion: 7.2.3
+    created: "2023-12-23T17:15:54.903792115Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.truecharts.org
+      version: 16.2.15
+    description: Open source, advanced key-value store.
+    digest: 85d974dd150b2318bbdbdc63fe5d4659b16ac84691f05145b361f6ec8e496916
+    home: https://truecharts.org/charts/dependency/redis
+    icon: https://truecharts.org/img/hotlink-ok/chart-icons/redis.png
+    keywords:
+    - redis
+    - keyvalue
+    - database
+    kubeVersion: '>=1.24.0-0'
+    maintainers:
+    - email: info@truecharts.org
+      name: TrueCharts
+      url: https://truecharts.org
+    name: redis
+    sources:
+    - https://github.com/bitnami/bitnami-docker-redis
+    - https://github.com/truecharts/charts/tree/master/charts/dependency/redis
+    - https://hub.docker.com/r/bitnami/redis
+    type: application
+    urls:
+    - https://github.com/truecharts/charts/releases/download/redis-10.0.13/redis-10.0.13.tgz
+    version: 10.0.13
   - annotations:
       max_scale_version: 23.10.2
       min_scale_version: 23.10.0
@@ -39243,6 +39509,43 @@ entries:
     - https://github.com/truecharts/charts/releases/download/redis-5.0.1/redis-5.0.1.tgz
     version: 5.0.1
   solr:
+  - annotations:
+      max_scale_version: 23.10.2
+      min_scale_version: 23.10.0
+      truecharts.org/SCALE-support: "true"
+      truecharts.org/category: search
+      truecharts.org/max_helm_version: "3.13"
+      truecharts.org/min_helm_version: "3.12"
+      truecharts.org/train: dependency
+    apiVersion: v2
+    appVersion: 9.4.0
+    created: "2023-12-23T17:15:55.078739548Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.truecharts.org
+      version: 16.2.15
+    description: Apache Solr
+    digest: f05baf9ba3cb34d58678daf325dd171e716236cfb03cdcf5c1c8c32ae20205e3
+    home: https://truecharts.org/charts/dependency/solr
+    icon: https://truecharts.org/img/hotlink-ok/chart-icons/solr.png
+    keywords:
+    - solr
+    - apache
+    - search
+    kubeVersion: '>=1.24.0-0'
+    maintainers:
+    - email: info@truecharts.org
+      name: TrueCharts
+      url: https://truecharts.org
+    name: solr
+    sources:
+    - https://github.com/truecharts/charts/tree/master/charts/dependency/solr
+    - https://hub.docker.com/r/bitnami/solr
+    - https://github.com/apache/solr
+    type: application
+    urls:
+    - https://github.com/truecharts/charts/releases/download/solr-8.0.12/solr-8.0.12.tgz
+    version: 8.0.12
   - annotations:
       max_scale_version: 23.10.2
       min_scale_version: 23.10.0
@@ -45573,4 +45876,4 @@ entries:
     urls:
     - https://github.com/truecharts/charts/releases/download/subchart-3.0.1/subchart-3.0.1.tgz
     version: 3.0.1
-generated: "2023-12-22T22:06:55.306979539Z"
+generated: "2023-12-23T17:15:55.081568188Z"
