@@ -47195,6 +47195,43 @@ entries:
       truecharts.org/train: dependency
     apiVersion: v2
     appVersion: 9.4.1
+    created: "2024-02-14T15:59:58.563524233Z"
+    dependencies:
+    - name: common
+      repository: oci://tccr.io/truecharts
+      version: 17.2.30
+    description: Apache Solr
+    digest: 19eb92ab8a265f9d8b85e8732d46435bcd7a16efed85d08df51d1d281389b4dd
+    home: https://truecharts.org/charts/dependency/solr
+    icon: https://truecharts.org/img/hotlink-ok/chart-icons/solr.png
+    keywords:
+    - solr
+    - apache
+    - search
+    kubeVersion: '>=1.24.0-0'
+    maintainers:
+    - email: info@truecharts.org
+      name: TrueCharts
+      url: https://truecharts.org
+    name: solr
+    sources:
+    - https://github.com/apache/solr
+    - https://github.com/truecharts/charts/tree/master/charts/dependency/solr
+    - https://hub.docker.com/r/bitnami/solr
+    type: application
+    urls:
+    - https://github.com/truecharts/charts/releases/download/solr-9.1.18/solr-9.1.18.tgz
+    version: 9.1.18
+  - annotations:
+      max_scale_version: 23.10.2
+      min_scale_version: 23.10.0
+      truecharts.org/SCALE-support: "true"
+      truecharts.org/category: search
+      truecharts.org/max_helm_version: "3.14"
+      truecharts.org/min_helm_version: "3.12"
+      truecharts.org/train: dependency
+    apiVersion: v2
+    appVersion: 9.4.1
     created: "2024-02-12T18:27:26.690624359Z"
     dependencies:
     - name: common
@@ -54551,4 +54588,4 @@ entries:
     urls:
     - https://github.com/truecharts/charts/releases/download/subchart-3.0.1/subchart-3.0.1.tgz
     version: 3.0.1
-generated: "2024-02-12T18:27:26.692860574Z"
+generated: "2024-02-14T15:59:58.566674823Z"
