@@ -10,6 +10,44 @@ entries:
       truecharts.org/min_helm_version: "3.12"
       truecharts.org/train: dependency
     apiVersion: v2
+    appVersion: 24.1.5.6
+    created: "2024-02-21T15:33:19.998323529Z"
+    dependencies:
+    - name: common
+      repository: oci://tccr.io/truecharts
+      version: 17.4.2
+    description: ClickHouse is a column-oriented database management system (DBMS)
+      for online analytical processing of queries (OLAP).
+    digest: e9cf9d6f32331510493dc4c48990e9c0542d54c60d7aa3f82b99184e2f292697
+    home: https://truecharts.org/charts/dependency/clickhouse
+    icon: https://truecharts.org/img/hotlink-ok/chart-icons/clickhouse.png
+    keywords:
+    - database
+    - clickhouse
+    - sql
+    kubeVersion: '>=1.24.0-0'
+    maintainers:
+    - email: info@truecharts.org
+      name: TrueCharts
+      url: https://truecharts.org
+    name: clickhouse
+    sources:
+    - https://clickhouse.com/
+    - https://github.com/truecharts/charts/tree/master/charts/dependency/clickhouse
+    - https://hub.docker.com/r/clickhouse/clickhouse-server
+    type: application
+    urls:
+    - https://github.com/truecharts/charts/releases/download/clickhouse-11.1.1/clickhouse-11.1.1.tgz
+    version: 11.1.1
+  - annotations:
+      max_scale_version: 23.10.2
+      min_scale_version: 23.10.0
+      truecharts.org/SCALE-support: "true"
+      truecharts.org/category: database
+      truecharts.org/max_helm_version: "3.14"
+      truecharts.org/min_helm_version: "3.12"
+      truecharts.org/train: dependency
+    apiVersion: v2
     appVersion: 24.1.3.31
     created: "2024-02-17T13:24:39.929200682Z"
     dependencies:
@@ -55267,4 +55305,4 @@ entries:
     urls:
     - https://github.com/truecharts/charts/releases/download/subchart-3.0.1/subchart-3.0.1.tgz
     version: 3.0.1
-generated: "2024-02-21T06:22:57.586914637Z"
+generated: "2024-02-21T15:33:20.808366431Z"
