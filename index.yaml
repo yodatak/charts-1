@@ -25993,6 +25993,45 @@ entries:
     version: 5.0.2
   mongodb:
   - annotations:
+      max_scale_version: 24.04.0
+      min_scale_version: 23.10.0
+      truecharts.org/SCALE-support: "true"
+      truecharts.org/category: database
+      truecharts.org/max_helm_version: "3.14"
+      truecharts.org/min_helm_version: "3.12"
+      truecharts.org/train: dependency
+    apiVersion: v2
+    appVersion: 7.0.5
+    created: "2024-02-21T18:21:37.133653765Z"
+    dependencies:
+    - name: common
+      repository: oci://tccr.io/truecharts
+      version: 17.4.2
+    description: Fast, reliable, scalable, and easy to use open-source no-sql database
+      system.
+    digest: d3c1012921f4de2cfd69b1b939614f08ff324b99d4cff52d9adda3ca4d091a40
+    home: https://truecharts.org/charts/dependency/mongodb
+    icon: https://truecharts.org/img/hotlink-ok/chart-icons/mongodb.png
+    keywords:
+    - mongodb
+    - database
+    - nosql
+    kubeVersion: '>=1.24.0-0'
+    maintainers:
+    - email: info@truecharts.org
+      name: TrueCharts
+      url: https://truecharts.org
+    name: mongodb
+    sources:
+    - https://www.mongodb.com
+    - https://github.com/bitnami/bitnami-docker-mongodb
+    - https://github.com/truecharts/charts/tree/master/charts/dependency/mongodb
+    - https://hub.docker.com/r/bitnami/mongodb
+    type: application
+    urls:
+    - https://github.com/truecharts/charts/releases/download/mongodb-11.2.2/mongodb-11.2.2.tgz
+    version: 11.2.2
+  - annotations:
       max_scale_version: 23.10.2
       min_scale_version: 23.10.0
       truecharts.org/SCALE-support: "true"
@@ -55342,4 +55381,4 @@ entries:
     urls:
     - https://github.com/truecharts/charts/releases/download/subchart-3.0.1/subchart-3.0.1.tgz
     version: 3.0.1
-generated: "2024-02-21T15:59:37.773339603Z"
+generated: "2024-02-21T18:21:37.415074095Z"
