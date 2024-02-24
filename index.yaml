@@ -6518,6 +6518,43 @@ entries:
       truecharts.org/train: dependency
     apiVersion: v2
     appVersion: 2.10.1
+    created: "2024-02-24T14:28:50.852220722Z"
+    dependencies:
+    - name: common
+      repository: oci://tccr.io/truecharts
+      version: 18.0.1
+    description: kube-state-metrics is a simple service that listens to the Kubernetes
+      API server and generates metrics about the state of the objects.
+    digest: 349d7b3aa88d8f4c610cab3a323927b38b99862c7276889cdafaf2fc477b3da5
+    home: https://truecharts.org/charts/dependency/kube-state-metrics
+    icon: https://truecharts.org/img/hotlink-ok/chart-icons/kube-state-metrics.png
+    keywords:
+    - prometheus
+    - kube-state-metrics
+    - monitoring
+    kubeVersion: '>=1.24.0-0'
+    maintainers:
+    - email: info@truecharts.org
+      name: TrueCharts
+      url: https://truecharts.org
+    name: kube-state-metrics
+    sources:
+    - https://github.com/truecharts/charts/tree/master/charts/dependency/kube-state-metrics
+    - https://hub.docker.com/r/bitnami/kube-state-metrics
+    type: application
+    urls:
+    - https://github.com/truecharts/charts/releases/download/kube-state-metrics-7.1.1/kube-state-metrics-7.1.1.tgz
+    version: 7.1.1
+  - annotations:
+      max_scale_version: 24.04.0
+      min_scale_version: 23.10.0
+      truecharts.org/SCALE-support: "true"
+      truecharts.org/category: metrics
+      truecharts.org/max_helm_version: "3.14"
+      truecharts.org/min_helm_version: "3.12"
+      truecharts.org/train: dependency
+    apiVersion: v2
+    appVersion: 2.10.1
     created: "2024-02-24T14:12:40.12997441Z"
     dependencies:
     - name: common
@@ -11250,6 +11287,47 @@ entries:
     - https://github.com/truecharts/charts/releases/download/kube-state-metrics-1.0.0/kube-state-metrics-1.0.0.tgz
     version: 1.0.0
   mariadb:
+  - annotations:
+      max_scale_version: 24.04.0
+      min_scale_version: 23.10.0
+      truecharts.org/SCALE-support: "true"
+      truecharts.org/category: database
+      truecharts.org/max_helm_version: "3.14"
+      truecharts.org/min_helm_version: "3.12"
+      truecharts.org/train: dependency
+    apiVersion: v2
+    appVersion: 11.2.3
+    created: "2024-02-24T14:28:50.979994151Z"
+    dependencies:
+    - name: common
+      repository: oci://tccr.io/truecharts
+      version: 18.0.1
+    description: Fast, reliable, scalable, and easy to use open-source relational
+      database system.
+    digest: 07cb3cdd4bd36f2cb755d612b0da7c43123b92cf80ca7b724f85d0d58e4d84ab
+    home: https://truecharts.org/charts/dependency/mariadb
+    icon: https://truecharts.org/img/hotlink-ok/chart-icons/mariadb.png
+    keywords:
+    - mariadb
+    - mysql
+    - database
+    - sql
+    kubeVersion: '>=1.24.0-0'
+    maintainers:
+    - email: info@truecharts.org
+      name: TrueCharts
+      url: https://truecharts.org
+    name: mariadb
+    sources:
+    - https://github.com/prometheus/mysqld_exporter
+    - https://mariadb.org
+    - https://github.com/bitnami/bitnami-docker-mariadb
+    - https://github.com/truecharts/charts/tree/master/charts/dependency/mariadb
+    - https://hub.docker.com/r/bitnami/mariadb
+    type: application
+    urls:
+    - https://github.com/truecharts/charts/releases/download/mariadb-13.1.1/mariadb-13.1.1.tgz
+    version: 13.1.1
   - annotations:
       max_scale_version: 24.04.0
       min_scale_version: 23.10.0
@@ -41293,6 +41371,43 @@ entries:
       truecharts.org/train: dependency
     apiVersion: v2
     appVersion: 7.2.4
+    created: "2024-02-24T14:28:51.377772524Z"
+    dependencies:
+    - name: common
+      repository: oci://tccr.io/truecharts
+      version: 18.0.1
+    description: Open source, advanced key-value store.
+    digest: c63f8196150bb6895dd655262069578361cadac8cc21c15399b2344c71cd81f1
+    home: https://truecharts.org/charts/dependency/redis
+    icon: https://truecharts.org/img/hotlink-ok/chart-icons/redis.png
+    keywords:
+    - redis
+    - keyvalue
+    - database
+    kubeVersion: '>=1.24.0-0'
+    maintainers:
+    - email: info@truecharts.org
+      name: TrueCharts
+      url: https://truecharts.org
+    name: redis
+    sources:
+    - https://github.com/bitnami/bitnami-docker-redis
+    - https://github.com/truecharts/charts/tree/master/charts/dependency/redis
+    - https://hub.docker.com/r/bitnami/redis
+    type: application
+    urls:
+    - https://github.com/truecharts/charts/releases/download/redis-12.1.1/redis-12.1.1.tgz
+    version: 12.1.1
+  - annotations:
+      max_scale_version: 24.04.0
+      min_scale_version: 23.10.0
+      truecharts.org/SCALE-support: "true"
+      truecharts.org/category: database
+      truecharts.org/max_helm_version: "3.14"
+      truecharts.org/min_helm_version: "3.12"
+      truecharts.org/train: dependency
+    apiVersion: v2
+    appVersion: 7.2.4
     created: "2024-02-24T14:12:41.02155586Z"
     dependencies:
     - name: common
@@ -56290,4 +56405,4 @@ entries:
     urls:
     - https://github.com/truecharts/charts/releases/download/subchart-3.0.1/subchart-3.0.1.tgz
     version: 3.0.1
-generated: "2024-02-24T14:12:41.217459682Z"
+generated: "2024-02-24T14:28:51.474050669Z"
