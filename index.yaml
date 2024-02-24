@@ -34447,6 +34447,43 @@ entries:
       truecharts.org/train: dependency
     apiVersion: v2
     appVersion: 1.7.0
+    created: "2024-02-24T18:24:21.080594519Z"
+    dependencies:
+    - name: common
+      repository: oci://tccr.io/truecharts
+      version: 18.0.1
+    description: Prometheus exporter for hardware and OS metrics exposed by UNIX kernels,
+      with pluggable metric collectors.
+    digest: 6f9987a28b464961a607d4a6ac3ae8700e941a985cc5713e3db7f492408423da
+    home: https://truecharts.org/charts/dependency/node-exporter
+    icon: https://truecharts.org/img/hotlink-ok/chart-icons/node-exporter.png
+    keywords:
+    - prometheus
+    - node-exporter
+    - monitoring
+    kubeVersion: '>=1.24.0-0'
+    maintainers:
+    - email: info@truecharts.org
+      name: TrueCharts
+      url: https://truecharts.org
+    name: node-exporter
+    sources:
+    - https://github.com/truecharts/charts/tree/master/charts/dependency/node-exporter
+    - https://hub.docker.com/r/bitnami/node-exporter
+    type: application
+    urls:
+    - https://github.com/truecharts/charts/releases/download/node-exporter-7.1.1/node-exporter-7.1.1.tgz
+    version: 7.1.1
+  - annotations:
+      max_scale_version: 24.04.0
+      min_scale_version: 23.10.0
+      truecharts.org/SCALE-support: "true"
+      truecharts.org/category: metrics
+      truecharts.org/max_helm_version: "3.14"
+      truecharts.org/min_helm_version: "3.12"
+      truecharts.org/train: dependency
+    apiVersion: v2
+    appVersion: 1.7.0
     created: "2024-02-24T14:12:40.831485461Z"
     dependencies:
     - name: common
@@ -48716,6 +48753,43 @@ entries:
       truecharts.org/train: dependency
     apiVersion: v2
     appVersion: 9.5.0
+    created: "2024-02-24T18:24:21.272987497Z"
+    dependencies:
+    - name: common
+      repository: oci://tccr.io/truecharts
+      version: 18.0.1
+    description: Apache Solr
+    digest: 13a0579a558790a4febc582e38d7a1f02b294a9a7410fac6cb1e6bf192227b93
+    home: https://truecharts.org/charts/dependency/solr
+    icon: https://truecharts.org/img/hotlink-ok/chart-icons/solr.png
+    keywords:
+    - solr
+    - apache
+    - search
+    kubeVersion: '>=1.24.0-0'
+    maintainers:
+    - email: info@truecharts.org
+      name: TrueCharts
+      url: https://truecharts.org
+    name: solr
+    sources:
+    - https://github.com/apache/solr
+    - https://github.com/truecharts/charts/tree/master/charts/dependency/solr
+    - https://hub.docker.com/r/bitnami/solr
+    type: application
+    urls:
+    - https://github.com/truecharts/charts/releases/download/solr-10.1.1/solr-10.1.1.tgz
+    version: 10.1.1
+  - annotations:
+      max_scale_version: 24.04.0
+      min_scale_version: 23.10.0
+      truecharts.org/SCALE-support: "true"
+      truecharts.org/category: search
+      truecharts.org/max_helm_version: "3.14"
+      truecharts.org/min_helm_version: "3.12"
+      truecharts.org/train: dependency
+    apiVersion: v2
+    appVersion: 9.5.0
     created: "2024-02-24T14:12:41.214348315Z"
     dependencies:
     - name: common
@@ -56442,4 +56516,4 @@ entries:
     urls:
     - https://github.com/truecharts/charts/releases/download/subchart-3.0.1/subchart-3.0.1.tgz
     version: 3.0.1
-generated: "2024-02-24T18:20:47.311053377Z"
+generated: "2024-02-24T18:24:21.275088494Z"
