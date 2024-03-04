@@ -19809,6 +19809,43 @@ entries:
       truecharts.org/min_helm_version: "3.11"
       truecharts.org/train: dependency
     apiVersion: v2
+    appVersion: 1.6.24
+    created: "2024-03-04T00:47:18.263299726Z"
+    dependencies:
+    - name: common
+      repository: oci://tccr.io/truecharts
+      version: 18.1.2
+    description: Memcached is a memory-backed database caching solution
+    digest: 8f056bfe6958834cd54cf7ff70a7b86733cc892be007bdbdf35e573da0f0c2e6
+    home: https://truecharts.org/charts/dependency/memcached
+    icon: https://truecharts.org/img/hotlink-ok/chart-icons/memcached.png
+    keywords:
+    - memcached
+    - database
+    - cache
+    kubeVersion: '>=1.24.0-0'
+    maintainers:
+    - email: info@truecharts.org
+      name: TrueCharts
+      url: https://truecharts.org
+    name: memcached
+    sources:
+    - https://github.com/bitnami/bitnami-docker-memcached
+    - https://github.com/truecharts/charts/tree/master/charts/dependency/memcached
+    - https://hub.docker.com/r/bitnami/memcached
+    type: application
+    urls:
+    - https://github.com/truecharts/charts/releases/download/memcached-12.3.1/memcached-12.3.1.tgz
+    version: 12.3.1
+  - annotations:
+      max_scale_version: 24.04.0
+      min_scale_version: 23.10.0
+      truecharts.org/SCALE-support: "true"
+      truecharts.org/category: database
+      truecharts.org/max_helm_version: "3.14"
+      truecharts.org/min_helm_version: "3.11"
+      truecharts.org/train: dependency
+    apiVersion: v2
     appVersion: 1.6.23
     created: "2024-02-29T13:26:25.341852507Z"
     dependencies:
@@ -27215,6 +27252,45 @@ entries:
     - https://github.com/truecharts/charts/releases/download/memcached-5.0.2/memcached-5.0.2.tgz
     version: 5.0.2
   mongodb:
+  - annotations:
+      max_scale_version: 24.04.0
+      min_scale_version: 23.10.0
+      truecharts.org/SCALE-support: "true"
+      truecharts.org/category: database
+      truecharts.org/max_helm_version: "3.14"
+      truecharts.org/min_helm_version: "3.11"
+      truecharts.org/train: dependency
+    apiVersion: v2
+    appVersion: 7.0.6
+    created: "2024-03-04T00:47:18.367299172Z"
+    dependencies:
+    - name: common
+      repository: oci://tccr.io/truecharts
+      version: 18.1.2
+    description: Fast, reliable, scalable, and easy to use open-source no-sql database
+      system.
+    digest: bc860882f1b63e01aa75a56b17295ada9cd5799062835aebba1b8536006854a4
+    home: https://truecharts.org/charts/dependency/mongodb
+    icon: https://truecharts.org/img/hotlink-ok/chart-icons/mongodb.png
+    keywords:
+    - mongodb
+    - database
+    - nosql
+    kubeVersion: '>=1.24.0-0'
+    maintainers:
+    - email: info@truecharts.org
+      name: TrueCharts
+      url: https://truecharts.org
+    name: mongodb
+    sources:
+    - https://www.mongodb.com
+    - https://github.com/bitnami/bitnami-docker-mongodb
+    - https://github.com/truecharts/charts/tree/master/charts/dependency/mongodb
+    - https://hub.docker.com/r/bitnami/mongodb
+    type: application
+    urls:
+    - https://github.com/truecharts/charts/releases/download/mongodb-12.2.1/mongodb-12.2.1.tgz
+    version: 12.2.1
   - annotations:
       max_scale_version: 24.04.0
       min_scale_version: 23.10.0
@@ -57728,4 +57804,4 @@ entries:
     urls:
     - https://github.com/truecharts/charts/releases/download/subchart-3.0.1/subchart-3.0.1.tgz
     version: 3.0.1
-generated: "2024-02-29T13:26:25.819573154Z"
+generated: "2024-03-04T00:47:18.560954165Z"
