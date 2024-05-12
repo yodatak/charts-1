@@ -1,7 +1,7 @@
 #!/bin/bash
 
-file_path=$1
-base_cmd="yq --front-matter=process"
+file_path="$1"
+base_cmd="go-yq --front-matter=process"
 # Check if the file has valid front matter
 
 is_empty() {
